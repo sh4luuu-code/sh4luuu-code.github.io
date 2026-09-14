@@ -348,3 +348,56 @@ footer p {
         gap: 15px;
     }
 }
+
+/* FOOTER */
+
+footer {
+    padding: 60px 8% 35px;
+    border-top: 1px solid #181818;
+    text-align: center;
+}
+
+footer > p {
+    color: #777;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.creator {
+    margin-top: 45px;
+    padding-top: 25px;
+    border-top: 1px solid #181818;
+}
+
+.creator p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.creator a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.creator a:hover {
+    color: white;
+}
+
+.instagram-icon {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+}
+
+.instagram-icon circle:last-child {
+    fill: currentColor;
+    stroke: none;
+}
